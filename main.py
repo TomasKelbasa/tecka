@@ -12,7 +12,3 @@ def on_forever():
     # abs(1000) vrací 1000
 
 basic.forever(on_forever)
-
-def replot(x: number, y: number):
-    basic.clear_screen()
-    led.plot(x, y)
